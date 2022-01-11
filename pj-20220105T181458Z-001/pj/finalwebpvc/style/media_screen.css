@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width:1200px) {  
+
+/*header css start*/
+.address_last { display:none; }
+/*header css end*/
+
+/*welcome css start*/
+.content { margin-bottom:40px; }
+/*welcome css end*/
+
+/*callback form css start*/
+.form-group { margin:13px 0 12px 0; }
+.callback_inner .form-group input.code { float:left; width:50%; }
+.callback_inner .captcha { margin-left:105px; }
+.submit { padding:6px 30px; }
+/*callback form css end*/
+
+}
+
+@media only screen and (max-width:960px) { 
+
+/*header css start*/
+.address { margin:5px 0 0 20px; }
+.p_right { font-size:14px;}
+/*header css end*/
+
+/*adv box css start*/
+.adv_box_inner h2 { font-size:18px; text-transform:none; }
+/*adv box css start*/
+
+/*callback form css start*/
+.form-group { margin:5px 0 5px 0; }
+.callback_inner { padding:10px 20px 20px 20px; }
+.callback_inner .form-group input { padding:5px 0 5px 10px; } 
+.callback_inner .form-group textarea { padding:5px 0 5px 10px; } 
+.callback_inner .form-group input.code { float:none; width:100%; }
+.callback_inner .captcha { margin-left:160px; margin-top:-25px; }
+.submit { width:100%; padding:6px 0; }
+/*callback form css end*/
+
+/*our services css start*/
+.service_icon { display:none; }
+/*our services css end*/ 
+
+/*counter css start*/
+.counter { padding:110px 0; background:url(../images/counter.jpg) center center no-repeat; background-size:cover; text-align:center; font-family:"Roboto", sans-serif; }
+.funfacts .icon { font-size:40px; color:#FFF; display:block; margin-bottom:15px; line-height:1; border-radius:50%; clear:both; border:0; }
+.funfacts h2 { font-size:54px; color:#fd9b28; font-weight:900 }
+.funfacts h4 { font-size:17px; color:#FFF; text-transform:uppercase; margin:22px 0 0; position:relative; font-weight:700; }
+/*counter css end*/ 
+
+.bot3 .fa-2x { font-size:14px;}
+ 
+}
+
+@media only screen and (max-width:768px) { 
+
+/*header css start*/
+.logo img { margin:0px auto; text-align:center; margin-bottom:30px; }
+/*header css end*/
+
+/*header css start*/
+.address { float:none; width:70%; margin:0px auto; overflow:hidden; margin-bottom:15px; }
+.p_right {  font-size:18px; }
+/*header css end*/
+
+/*welcome css start*/
+.content { margin-bottom:0px; }
+/*welcome css end*/
+
+/*adv box css start*/
+.adv_box { margin-bottom:20px; }
+.adv_box_inner h2 { font-size:22px; text-transform:uppercase; }
+/*adv box css start*/
+
+/*callback form css start*/
+.callback { margin-top:10px;}
+.form-group { margin:13px 0 12px 0; }
+.callback_inner .form-group input.code { float:left; width:50%; }
+.callback_inner .captcha { margin-left:180px; margin-top:10px; }
+.submit { width:auto; padding:6px 65px; }
+/*callback form css end*/ 
+
+/*counter css start*/
+.counter { padding:0px 0; }
+.funfacts { margin:30px 0px; }
+/*counter css end*/
+
+/*bot links css start*/
+.bot h2 { margin:0px 0 20px 0; }
+.bot2 { margin-top:40px; }
+.bot3 { margin-top:40px; }
+/*bot links css end*/
+ 
+} 
+
+@media only screen and (max-width:480px){
+
+/*header css start*/
+.address { float:none; width:90%; margin:0px auto; overflow:hidden; margin-bottom:15px; }
+.p_right {  font-size:14px; }
+/*header css end*/
+
+/*welcome css start*/
+.wel h1 { font-size:28px; }
+/*welcome css end*/
+
+/*about css start*/
+.about h1 { font-size:22px;}
+/*about css end*/
+
+/*callback form css start*/
+.form-group { margin:10px 0 10px 0; }
+.callback_inner { padding:10px 20px 20px 20px; }
+.callback_inner .form-group input { padding:5px 0 5px 10px; } 
+.callback_inner .form-group textarea { padding:5px 0 5px 10px; } 
+.callback_inner .form-group input.code { float:none; width:100%; }
+.callback_inner .captcha { margin-left:225px; margin-top:-25px; }
+.submit { width:100%; padding:6px 0; }
+/*callback form css end*/ 
+
+}  
+
+@media only screen and (max-width:320px) { 
+
+/*header css start*/
+.address { float:none; width:98%; margin:0px auto; overflow:hidden; margin-bottom:15px; }
+.p_right {  font-size:12px; }
+.p_left i { width:24px; height:24px; line-height:24px; font-size:13px; background:#FFF; border-radius:50%; color:#333; margin-right:15px; text-align:center; border:#CCC 1px solid; }
+/*header css end*/
+
+/*welcome css start*/
+.wel h1 { font-size:20px; }
+/*welcome css end*/
+
+/*about css start*/
+.about h1 { font-size:16px;}
+/*about css end*/
+
+
+/*callback form css start*/
+.callback_inner .captcha { margin-left:145px; }
+/*callback form css end*/
+
+}

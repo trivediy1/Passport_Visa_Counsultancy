@@ -1,0 +1,13 @@
+CREATE PROCEDURE [dbo].[sp_Remove_Agent]
+	@aid int
+AS
+	declare @amt as money;
+	set @amt = (select Remaining_Amount from tbl_Agent_Details where Login_Id=@aid);
+	if(@amt=0)
+	begin
+		update tbl_Login set User_type='Invalid' where Login_Id=@aid;
+	end
+RETURN 0
+
+
+
